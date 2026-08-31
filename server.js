@@ -312,7 +312,7 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`====================================================`);
   console.log(`🚀 PolyGlot Live Server is running!`);
   console.log(`🌐 URL: http://localhost:${PORT}`);
